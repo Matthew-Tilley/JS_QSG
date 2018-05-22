@@ -2,12 +2,21 @@ let months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oc
 
 var counter = 0;
 
+for ( let i = counter; i < months.length; i++ )
+    {
+        console.log(i+1 + " is the number of month " + months[i] );
+    }
+
+
+
+/*
 while (counter < months.length)
 {
     console.log(months[counter] + " is month number " + parseInt(counter+1) + " of the year.");
     //document.write(months[counter] + " ");
     counter++;
 }
+*/
 
 //console.log(months);
 //console.log(months.length);
