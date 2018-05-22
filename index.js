@@ -1,7 +1,15 @@
 let months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
 
-console.log(months);
-console.log(months.length);
+var counter = 0;
+
+while (counter < months.length)
+{
+    document.write(months[counter] + " ");
+    counter++;
+}
+
+//console.log(months);
+//console.log(months.length);
 
 
 /*
