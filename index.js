@@ -1,3 +1,25 @@
+var money = prompt("Enter the amount of money you have in your pocket: ");
+
+if (money > 500 )
+    {
+        console.log("Let's go to Tony's!");
+    }
+
+else if (money > 100 && money < 500 )
+    {
+        console.log("Let's go to Pasta House!")
+    }
+
+
+else
+    {
+        console.log("Imo's it is!");
+    }
+
+
+
+
+/*
 let age = prompt("Enter age:");
 
 if ( age >= 40 )
@@ -9,6 +31,7 @@ else
     {
         console.log("You are under 40 years old.");
     }
+*/
 
 
 /*
