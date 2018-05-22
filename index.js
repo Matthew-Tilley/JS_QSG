@@ -1,3 +1,14 @@
+let age = 1;
+
+while (age > 0 && age >= 100 )
+    {
+        console.log(age);
+        age++;
+    }
+
+
+
+/*
 var money = prompt("Enter the amount of money you have in your pocket: ");
 
 if (money > 500 )
@@ -10,12 +21,11 @@ else if (money > 100 && money < 500 )
         console.log("Let's go to Pasta House!")
     }
 
-
 else
     {
         console.log("Imo's it is!");
     }
-
+*/
 
 
 
