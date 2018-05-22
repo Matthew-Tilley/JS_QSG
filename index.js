@@ -1,0 +1,1 @@
+alert("JavaScript is starting to make sense!");
