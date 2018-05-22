@@ -1,13 +1,21 @@
-const birth_year = 1957;
+let fname = "Joe";
+
+let lname = "Schmuckatelli";
+
+let fullname = fname + " " + lname;
+
+console.log(fullname);
+
+
+
+/*const birth_year = 1957;
 
 let current_year = 2018;
 
 let a = current_year - birth_year;
 
 document.getElementById("test").innerHTML = a;
-
-
-
+*/
 
 
 /*const year_of_birth = 1970;
