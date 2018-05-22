@@ -4,7 +4,8 @@ var counter = 0;
 
 while (counter < months.length)
 {
-    document.write(months[counter] + " ");
+    console.log(months[counter] + " is month number " + parseInt(counter+1) + " of the year.");
+    //document.write(months[counter] + " ");
     counter++;
 }
 
