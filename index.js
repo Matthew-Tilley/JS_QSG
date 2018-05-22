@@ -1,3 +1,11 @@
+function writeText()
+{
+    document.write("The answer is 42.");
+}
+
+writeText();
+
+/*
 let months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
 
 var counter = 0;
@@ -6,6 +14,7 @@ for ( let i = counter; i < months.length; i++ )
     {
         console.log(i+1 + " is the number of month " + months[i] );
     }
+*/
 
 
 
