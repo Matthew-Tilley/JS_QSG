@@ -1,8 +1,20 @@
+var whatever = [];
+
+console.log(whatever.push("LKASJF"));
+console.log(whatever[0]);
+
+
+/*
 let age = 99;
 
-age++;
+//age++;
+
+age--;
 
 console.log(age);
+*/
+
+
 
 /*console.log(age -= 1);
 
