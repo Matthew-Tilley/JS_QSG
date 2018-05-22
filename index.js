@@ -1,3 +1,10 @@
+let months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
+
+console.log(months);
+console.log(months.length);
+
+
+/*
 let age = 15;
 
 
@@ -6,6 +13,7 @@ for (var i = age; i < 18; i++)
         age++;
         console.log(age);
     }
+*/
 
 
 
