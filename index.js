@@ -1,5 +1,15 @@
 var something = ["this", "that", "the", "other"];
 
+var a = something.length;
+
+//console.log(a);
+
+console.log("This array has " + a + " items in it.");
+
+//console.log(something.length);
+
+
+/*
 console.log(something);
 
 something.unshift("BLURP");
@@ -9,6 +19,7 @@ console.log(something);
 something.shift();
 
 console.log(something);
+*/
 
 
 /*
