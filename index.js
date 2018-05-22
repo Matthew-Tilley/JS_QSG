@@ -1,6 +1,10 @@
 let age = 99;
 
-console.log(age -= 1);
+age++;
+
+console.log(age);
+
+/*console.log(age -= 1);
 
 console.log(age += 1);
 
@@ -8,8 +12,7 @@ console.log(age *= 50);
 
 console.log(age /= 2)
 
-
-console.log(age);
+console.log(age);*/
 
 
 /*
