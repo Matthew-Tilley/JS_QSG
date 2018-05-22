@@ -1,4 +1,8 @@
-var location = "California";
+var name = prompt("What is your name?");
+
+console.log(name);
+
+//var location = "California";
 
 /*
 let name;
