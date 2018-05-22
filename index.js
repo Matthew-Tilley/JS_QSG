@@ -1,8 +1,10 @@
+var location = "California";
+
+/*
 let name;
 
 name = "martin";
-
-
+*/
 
 //let name = "Martin";
 
