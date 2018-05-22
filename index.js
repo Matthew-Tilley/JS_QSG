@@ -1,4 +1,4 @@
-var name = prompt("What is your name?");
+var name = prompt("What is your name?", "Lastname, Firstname");
 
 console.log(name);
 
