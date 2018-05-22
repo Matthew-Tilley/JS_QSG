@@ -1,3 +1,17 @@
+let age = prompt("Enter age:");
+
+if ( age >= 40 )
+    {
+        console.log("You are over 40 years old.");
+    }
+
+else
+    {
+        console.log("You are under 40 years old.");
+    }
+
+
+/*
 var something = ["this", "that", "the", "other"];
 
 var a = something.length;
@@ -5,6 +19,7 @@ var a = something.length;
 //console.log(a);
 
 console.log("This array has " + a + " items in it.");
+*/
 
 //console.log(something.length);
 
