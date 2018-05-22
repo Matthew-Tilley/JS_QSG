@@ -1,3 +1,18 @@
+let age = 99;
+
+console.log(age -= 1);
+
+console.log(age += 1);
+
+console.log(age *= 50);
+
+console.log(age /= 2)
+
+
+console.log(age);
+
+
+/*
 let fname = "Joe";
 
 let lname = "Schmuckatelli";
@@ -5,6 +20,7 @@ let lname = "Schmuckatelli";
 let fullname = fname + " " + lname;
 
 console.log(fullname);
+*/
 
 
 
