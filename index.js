@@ -1,10 +1,20 @@
 let age = 1;
 
+while (age < 100)
+    {
+        console.log(age);
+        age++;
+    }
+
+
+
+/*
 while (age > 0 && age >= 100 )
     {
         console.log(age);
         age++;
     }
+*/
 
 
 
