@@ -1,3 +1,17 @@
+var something = ["this", "that", "the", "other"];
+
+console.log(something);
+
+something.unshift("BLURP");
+
+console.log(something);
+
+something.shift();
+
+console.log(something);
+
+
+/*
 var whatever = [];
 
 console.log(whatever.push("LKASJF"));
@@ -7,6 +21,7 @@ whatever.pop();
 
 console.log(whatever);
 console.log(whatever[0]);
+*/
 
 
 /*
