@@ -1,6 +1,17 @@
-var name = prompt("What is your name?", "Lastname, Firstname");
+const year_of_birth = 1970;
 
-console.log(name);
+let current_year = 2018;
+
+var approximate_age = current_year - year_of_birth;
+
+window.console.log(approximate_age);
+
+
+//console.log(year_of_birth === current_year);
+
+/*var name = prompt("What is your name?", "Lastname, Firstname");
+
+console.log(name);*/
 
 //var location = "California";
 
