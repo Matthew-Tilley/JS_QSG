@@ -3,6 +3,11 @@ var whatever = [];
 console.log(whatever.push("LKASJF"));
 console.log(whatever[0]);
 
+whatever.pop();
+
+console.log(whatever);
+console.log(whatever[0]);
+
 
 /*
 let age = 99;
