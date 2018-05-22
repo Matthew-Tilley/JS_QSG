@@ -1,8 +1,9 @@
-let age = 1;
+let age = 15;
 
 
-for (age = 1; age < 18; age++)
+for (var i = age; i < 18; i++)
     {
+        age++;
         console.log(age);
     }
 
