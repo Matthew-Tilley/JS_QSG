@@ -1,7 +1,14 @@
 function priceCheck(price, discount)
 {
     let total = price - price * discount / 100;
+    return total;
 }
+
+let actualPrice = priceCheck(100,20);
+
+document.write("The discounted price of the product excluding VAT is " + actualPrice);
+
+
 
 
 
