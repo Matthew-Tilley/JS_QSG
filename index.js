@@ -1,11 +1,31 @@
-function derp(flip, flop)
+function checAge(name, years)
+{
+    name = prompt("Enter your name: ");
+    years = prompt("Enter your age:");
+    
+    if ( years >= 18 )
+        {
+            console.log("Okay, " + name +  " you may pass.");
+        }
+    
+    else
+        {
+            console.log("Sorry, " + name + " you are not old enough!");
+        }
+}
+
+
+
+checAge();
+
+/*function derp(flip, flop)
 {
     console.log(flip + flop);
 }
 
 
 derp(8,2);
-derp(99,1);
+derp(99,1);*/
 
 
 /*function getData()
