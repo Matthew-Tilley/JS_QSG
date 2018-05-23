@@ -1,3 +1,20 @@
+function getData()
+{
+    let name = prompt("Enter your name: ");
+    let age = prompt("Enter your age: ");
+    return flurpo(name, age);
+}
+
+function flurpo(name, age)
+{
+    console.log("Okay " + name + " you're good.");
+}
+
+getData();
+
+
+
+/*
 function checAge(name, years)
 {
     name = prompt("Enter your name: ");
@@ -17,6 +34,7 @@ function checAge(name, years)
 
 
 checAge();
+*/
 
 /*function derp(flip, flop)
 {
