@@ -3,7 +3,10 @@ function writeText()
     document.write("The answer is 42.");
 }
 
-writeText();
+for (let i=0; i < 10; i++)
+{
+    writeText();
+}
 
 /*
 let months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
