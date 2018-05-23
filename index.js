@@ -1,3 +1,64 @@
+function derp(flip, flop)
+{
+    console.log(flip + flop);
+}
+
+
+derp(8,2);
+derp(99,1);
+
+
+/*function getData()
+{
+    let age = prompt("Enter your age: ");
+    return output(age);
+}
+
+
+function output(age)
+{
+    console.log("You are " + age + " years old.");
+}
+
+getData();*/
+
+
+
+/*function getData()
+{
+    let age = prompt("Enter your age");
+    return age;
+}*/
+
+
+
+
+
+
+
+
+
+/*
+function checkAge()
+{
+    let age = prompt("Enter your age:");
+    
+    if (age >= 18)
+        {
+            console.log("You have attained the age of wisdom.");
+        }
+    
+    else
+        {
+            console.log("You've got more learnin' to do...");
+        }
+}
+
+checkAge();
+*/
+
+
+/*
 function writeText()
 {
     document.write("The answer is 42.");
@@ -7,6 +68,9 @@ for (let i=0; i < 10; i++)
 {
     writeText();
 }
+*/
+
+
 
 /*
 let months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
