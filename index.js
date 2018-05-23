@@ -14,8 +14,24 @@ car.startCar = function()
     console.log("You are driving a " + car.color + " " + car.make + " " + car.model);
 }
 
+car.switcheroo = function()
+{
+    let x = prompt("Enter the color you wish the car to be: ");
+    return x;
+}
+
+othercolor = car.switcheroo();
+
+car.changeColor = function(othercolor)
+{
+    this.color = othercolor;
+    console.log("The car is now " + this.color);
+}
+
 
 car.startCar();
+
+car.switcheroo();
 
 //console.log(car);
 
