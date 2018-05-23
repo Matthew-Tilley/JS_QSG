@@ -5,9 +5,11 @@ function checkPrice(price, discount)
     return total;
 }
 
-let subtotal_1 = checkPrice(100, 20);
+//let subtotal_1 = checkPrice(100, 20);
 
-console.log(subtotal_1);
+//console.log(subtotal_1);
+
+console.log("The actual price is " + checkPrice(100, 30) + " dollars...cool?");
 
 
 /*
