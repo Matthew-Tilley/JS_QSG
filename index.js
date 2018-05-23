@@ -1,4 +1,20 @@
-function getData()
+function priceCheck(price, discount)
+{
+    let total = price - price * discount / 100;
+}
+
+
+
+
+
+function something(arg1, arg2)
+{
+    return data;
+}
+
+
+
+/*function getData()
 {
     let name = prompt("Enter your name: ");
     let age = prompt("Enter your age: ");
@@ -10,7 +26,7 @@ function flurpo(name, age)
     console.log("Okay " + name + " you're good.");
 }
 
-getData();
+getData();*/
 
 
 
