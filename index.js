@@ -4,13 +4,14 @@ car.color = "red";
 car.make = "ford";
 car.model = "Mustang";
 
-console.log(car);
+//console.log(car);
 
-console.log(car.color);
+//console.log(car.color);
 
 car.startCar = function()
 {
     console.log("The engine has been started");
+    console.log("You are driving a " + car.color + " " + car.make + " " + car.model);
 }
 
 
