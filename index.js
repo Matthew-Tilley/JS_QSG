@@ -1,3 +1,31 @@
+function checkPrice(price, discount)
+{   
+    let total = price - discount;
+    
+    return total;
+}
+
+let subtotal_1 = checkPrice(100, 20);
+
+console.log(subtotal_1);
+
+
+/*
+function bippo()
+{
+    x = 9099;
+    return x;
+}
+
+
+//console.log(x);
+let blurp = bippo();
+
+console.log(blurp);
+
+
+
+
 function priceCheck(price, discount)
 {
     let total = price - price * discount / 100;
@@ -10,14 +38,11 @@ document.write("The discounted price of the product excluding VAT is " + actualP
 
 
 
-
-
-
-
 function something(arg1, arg2)
 {
     return data;
 }
+*/
 
 
 
