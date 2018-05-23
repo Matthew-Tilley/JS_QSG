@@ -1,3 +1,18 @@
+var car = new Object();
+
+car.color = "red";
+car.make = "ford";
+
+console.log(car);
+
+console.log(car.color);
+
+
+//console.log(car);
+
+
+
+/*
 function checkPrice(price, discount)
 {   
     let total = price - discount;
@@ -10,6 +25,7 @@ function checkPrice(price, discount)
 //console.log(subtotal_1);
 
 console.log("The actual price is " + checkPrice(100, 30) + " dollars...cool?");
+*/
 
 
 /*
