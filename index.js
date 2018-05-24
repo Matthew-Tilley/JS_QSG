@@ -1,3 +1,16 @@
+function addemup(x,y){
+    
+    x = prompt("Enter some number: ");
+    y = prompt("Enter some other number: ");
+    
+    return x + y;    
+}
+
+addemup();
+
+
+
+/*
 let x = "BING";
 let z = "BONG";
 
@@ -8,6 +21,7 @@ function whatever()
 }
 
 console.log("This thing is not an " + whatever() + "!!!");
+*/
 
 //whatever(z);
 
