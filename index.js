@@ -1,9 +1,9 @@
 function addemup(x,y){
     
-    x = prompt("Enter some number: ");
-    y = prompt("Enter some other number: ");
+    x = parseInt(prompt("Enter some number: "));
+    y = parseInt(prompt("Enter some other number: "));
     
-    return parseInt(x + y);    
+    return x + y;    
 }
 
 console.log(addemup());
