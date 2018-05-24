@@ -1,15 +1,28 @@
 function numz()
 {
-    return 5;
+    x = "pancake";
+    return x;
 }
 
+
+
+//var q = numz();  //TAKES ***VALUE*** FROM FUNCTION / ASSIGNS TO "q"
+//console.log(q);  //OUTPUTS VALUE OF "q" TO THE CONSOLE
+
+//console.log(numz());  //Returns "5" as expected (as an integer.)
+//console.log(numz(x)); //ERROR - x IS NOT DEFINED.
+
+
+
+
+/*
 numz();  //NOTHING HAPPENS
 console.log(numz());  //THE WHOLE FUNCTION RETURNS FIVE
 
 var x = numz();
 console.log(numz() + " KLIASF");  //RETURNS AS EXPECTED
 console.log(x + " OIHOIHGOIHDGSOI");  //SAME AS ABOVE
-
+*/
 
 
 
