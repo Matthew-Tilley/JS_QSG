@@ -1,12 +1,15 @@
 let x = "BING";
 let z = "BONG";
 
-function whatever(arg1)
+function whatever()
 {
-    console.log(arg1)
+    let q = "octopus";
+    return q;
 }
 
-whatever(z);
+console.log("This thing is not an " + whatever() + "!!!");
+
+//whatever(z);
 
 
 /*
