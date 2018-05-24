@@ -1,3 +1,13 @@
+function numz()
+{
+    return 5;
+}
+
+numz();  //NOTHING HAPPENS
+
+
+
+/*
 function getnum(){
     let num = prompt("Enter a number: ");
     return whatever(num);
@@ -22,6 +32,7 @@ function whatever(num)
 var output = whatever();
 
 console.log(output);
+*/
 
 
 
