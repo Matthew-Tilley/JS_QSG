@@ -3,7 +3,7 @@ function addemup(x,y){
     x = prompt("Enter some number: ");
     y = prompt("Enter some other number: ");
     
-    return x + y;    
+    return parseInt(x + y);    
 }
 
 console.log(addemup());
