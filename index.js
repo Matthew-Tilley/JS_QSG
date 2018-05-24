@@ -1,3 +1,15 @@
+let x = "BING";
+let z = "BONG";
+
+function whatever(arg1)
+{
+    console.log(arg1)
+}
+
+whatever(z);
+
+
+/*
 var car = new Object();
 
 car.color = "red";
@@ -32,6 +44,7 @@ car.changeColor = function(othercolor)
 car.startCar();
 
 car.switcheroo();
+*/
 
 //console.log(car);
 
