@@ -1,8 +1,35 @@
-function numz()
+let x = function()
+{
+    a = parseInt(prompt("Number, please: "));
+    b = parseInt(prompt("Another number, please: "));
+    
+    x = a + b;
+    
+    return x;
+}
+
+console.log(x());
+
+//console.log(x());
+//console.log(x);  //THIS LITERALLY JUST PRINTS OUT THE FUNCTION CALL ON THE CONSOLE...
+//console.log(x());  //SO, THERE WAS *NO REASON* TO HAVE THE 2 ARGS IN FUNCTION DEFINITION...
+
+
+
+
+
+/*
+let result = x();  //RUNS FUNCTION - OUTPUTS TO VARIABLE result
+console.log(result); //LOGS RESULT TO CONSOLE
+*/
+
+
+
+/*function numz()
 {
     x = "pancake";
     return x;
-}
+}*/
 
 
 
