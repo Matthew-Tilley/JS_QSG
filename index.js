@@ -6,7 +6,7 @@ function addemup(x,y){
     return x + y;    
 }
 
-addemup();
+console.log(addemup());
 
 
 
