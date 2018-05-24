@@ -1,4 +1,31 @@
-function addemup(x,y){
+function getnum(){
+    let num = prompt("Enter a number: ");
+    return whatever(num);
+}
+
+
+
+
+function whatever(num)
+{
+    if (num < 100)
+        {
+            return true;
+        }
+    
+    else
+        {
+            return false;
+        }
+}
+
+var output = whatever();
+
+console.log(output);
+
+
+
+/*function addemup(x,y){
     
     x = parseInt(prompt("Enter some number: "));
     y = parseInt(prompt("Enter some other number: "));
@@ -6,7 +33,11 @@ function addemup(x,y){
     return x + y;    
 }
 
-console.log(addemup());
+var q = addemup();
+
+console.log("The answer is: " + q);*/
+
+//console.log(addemup());
 
 
 
