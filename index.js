@@ -4,6 +4,12 @@ function numz()
 }
 
 numz();  //NOTHING HAPPENS
+console.log(numz());  //THE WHOLE FUNCTION RETURNS FIVE
+
+var x = numz();
+console.log(numz() + " KLIASF");  //RETURNS AS EXPECTED
+console.log(x + " OIHOIHGOIHDGSOI");  //SAME AS ABOVE
+
 
 
 
